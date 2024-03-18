@@ -93,7 +93,9 @@ function showProduct(product) {
                             </div>
                         <strong>(${product.rating.count})</strong>
                    </div>
-                    <button>Buy Now</button>
+                   <button>
+                            Buy Now
+                    </button>
                     `
     listedProduct.append(div)
 }
