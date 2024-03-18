@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="style.css" />
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        </style>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>GLA2 - Rest API</title>
+    </head>
+    <body>
+        <main>
+            <div class="filters">
+                <select name="category" id="category-filter">
+                    <option value="">Select a category</option>
+                    <option value="men's clothing">Men's Clothing</option>
+                    <option value="jewelery">Jewelery</option>
+                    <option value="electronics">Electronics</option>
+                    <option value="women's clothing">Women's Clothing</option>
+                </select>
+
+                <select name="" id="price-sort">
+                    <option value="">Sort by Price</option>
+                    <option value="asc">Ascending</option>
+                    <option value="desc">Descending</option>
+                </select>
+            </div>
+            <div id="list-product"></div>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
